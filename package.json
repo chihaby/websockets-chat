@@ -1,0 +1,26 @@
+{
+  "name": "websockets-chat",
+  "version": "1.0.0",
+  "description": "Real time chat application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chihaby/websockets-chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chihaby/websockets-chat/issues"
+  },
+  "homepage": "https://github.com/chihaby/websockets-chat#readme",
+  "dependencies": {
+    "@feathersjs/express": "^4.3.4",
+    "@feathersjs/feathers": "^4.3.4",
+    "@feathersjs/socketio": "^4.3.4",
+    "moment": "^2.24.0"
+  }
+}

@@ -53,9 +53,8 @@ app
     console.log(`Realtime server running on port ${PORT}`)
   );
 
-// app.service('ideas').create({
-//   text: 'Build a cool app',
-//   tech: 'Node.js',
-//   viewer: 'John Doe',
-//   time: moment().format('h:mm:ss a')
-// });
+app.service('ideas').create({
+  text: 'Build a cool app',
+  tech: 'Node.js',
+  viewer: 'John Doe'
+});
